@@ -11,7 +11,8 @@ I. LA DATABASE > Commit: Création et hydratation de la DB
 	4. Sauvegarde la DB et son contenu dans documents/db
 
 ----------------------------------------------------
-II. LA STRUCTURE MCV > Commit: Structure MVC de base
+II. LA STRUCTURE MCV > Commit: Structure MVC de base - 
+1-Pas Fait | 2-Pas OK | 3-Fonctionnel | 4-OK
 ----------------------------------------------------
 	Création de la structure complète de l'app MVC
 	app, core, public, ...
