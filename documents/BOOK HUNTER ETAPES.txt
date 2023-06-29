@@ -38,6 +38,7 @@ II. LA STRUCTURE MCV > Commit: Structure MVC de base -
 
 -------------------------------------------------------------------------------
 III. LE TEMPLATE > Commit: Intégration et décomposition du template en partials
+1-Pas Fait | 2-Pas OK | 3-Fonctionnel | 4-OK
 -------------------------------------------------------------------------------
 	1. Intégrer le template
 	2. Placer les zones dynamiques (title et content)

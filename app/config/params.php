@@ -1,5 +1,9 @@
 <?php
 
+// Initialisation des zones dynamiques
+$title = '';
+$content = '';
+
 // Paramètres de connexion
 define('DB_HOST', '127.0.0.1:8889');
 define('DB_NAME', 'book_hunter');
