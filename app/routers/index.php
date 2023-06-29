@@ -5,9 +5,8 @@
 // PATTERN: ?books=index
 // CTRL: booksController
 // ACTION: index
-if (isset($_GET['books']) && $_GET['books'] === 'index') :
-    include_once '../app/controllers/booksController.php';
-    \App\Controllers\BooksController\indexAction($connexion);
+if (isset($_GET['books'])) :
+    include_once '../app/routers/books.php';
 
 // AUTHORS.INDEX: Liste des authors
 // PATTERN: ?authors=index
