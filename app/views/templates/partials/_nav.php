@@ -23,7 +23,7 @@
             </div>
             <div class="hidden md:flex items-center">
                 <a class="text-gray-300 hover:text-white px-3 py-2" href="?books=index">Books</a>
-                <a class="text-gray-300 hover:text-white px-3 py-2" href="authors.html">Authors</a>
+                <a class="text-gray-300 hover:text-white px-3 py-2" href="?authors=index">Authors</a>
             </div>
         </div>
     </div>
