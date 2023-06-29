@@ -46,6 +46,7 @@ III. LE TEMPLATE > Commit: Intégration et décomposition du template en partial
 
 -------------------------------------------------------------------------------
 IV. LA ROUTE PAR DÉFAUT > Commit: Route par défaut: pages.home
+-Pas Fait | 2-Pas OK | 3-Fonctionnel | 4-OK
 -------------------------------------------------------------------------------
 	PATTERN: /
 	CTRL: pagesController

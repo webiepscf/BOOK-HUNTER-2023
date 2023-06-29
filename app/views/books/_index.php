@@ -6,14 +6,14 @@
             </span>
             <img class="w-full h-48 object-cover" src="<?php echo $book['cover']; ?>" alt="<?php echo $book['title']; ?>" />
             <div class="p-4">
-                <div class="pb-4">
-                    <span class="bg-gray-500 text-white px-3 py-1 rounded-full text-sm font-semibold mr-2">
-                        #society
-                    </span>
-                    <span class="bg-gray-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                        #bestseller
-                    </span>
-                </div>
+
+                <!-- Tags du book -->
+                <?php
+                include_once '../app/models/tagsModel.php';
+                $tags = \App\Models\tagsModel\findAllByBookId($connexion, $book['id']);
+                include '../app/views/tags/_indexByBook.php';
+                ?>
+
                 <h3 class="text-xl font-bold"><?php echo $book['title']; ?></h3>
                 <h4 class="text mb-2 text-gray-400">
                     <?php echo $book['firstname']; ?>
