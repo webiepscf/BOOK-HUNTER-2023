@@ -19,12 +19,16 @@
                     <?php echo $book['firstname']; ?>
                     <?php echo $book['lastname']; ?>
                 </h4>
-                <div class="flex items-center mb-2">
-                    <span class="text-yellow-500 mr-1">
-                        <i class="fas fa-star"></i>
-                    </span>
-                    <span><?php echo $book['notation']; ?></span>
-                </div>
+
+                <!-- Book User Notation -->
+                <?php if ($book['notation'] != NULL) : ?>
+                    <div class="flex items-center mb-2">
+                        <span class="text-yellow-500 mr-1">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <span><?php echo $book['notation']; ?></span>
+                    </div>
+                <?php endif; ?>
 
                 <p class="text-gray-400">
                     <?php echo $book['resume']; ?>
